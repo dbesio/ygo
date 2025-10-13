@@ -1,0 +1,6 @@
+repos/
+extracted_files/
+bin/
+cmd/
+y-crdt/
+lib/
