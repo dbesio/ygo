@@ -15,7 +15,7 @@ A Go wrapper around the official Y.js CRDT implementation, providing collaborati
 ### Installation
 
 ```bash
-go get github.com/codigoai/ygo
+go get github.com/dbesio/ygo
 ```
 
 ### Basic Usage
@@ -26,7 +26,7 @@ package main
 import (
     "fmt"
     "log"
-    "github.com/codigoai/ygo/pkg/yjs"
+    "github.com/dbesio/ygo/pkg/yjs"
 )
 
 func main() {

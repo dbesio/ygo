@@ -1,4 +1,4 @@
-module github.com/codigoai/ygo
+module github.com/dbesio/ygo
 
 go 1.24
 
