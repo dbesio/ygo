@@ -14,7 +14,7 @@ YCRDT_VERSION="v0.24.0"
 # Check if y-crdt directory exists
 if [ ! -d "y-crdt" ]; then
     echo "📥 Cloning y-crdt repository (${YCRDT_VERSION})..."
-    git clone --branch ${YCRDT_VERSION} --depth 1 https://github.com/y-crdt/y-crdt.git
+    git clone --branch ${YCRDT_VERSION} --depth 1 https://github.com/dbesio/y-crdt.git
     echo "✅ Cloned y-crdt ${YCRDT_VERSION}"
 else
     echo "📁 y-crdt directory exists, verifying version..."
